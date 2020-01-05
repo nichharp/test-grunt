@@ -7,3 +7,19 @@ function tmp() {
 }
 
 tmp();
+
+function add(num1, num2) {
+
+    let returnValue = 0;
+
+    for (let i = 0; i < num1; i++) {
+        returnValue++;
+    }
+
+    for (let i = 0; i < num2; i++) {
+        returnValue++;
+    }
+
+    return returnValue;
+}
+
